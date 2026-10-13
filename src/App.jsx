@@ -53,7 +53,7 @@ const projects = [
     n: '01',
     title: 'DineOps',
     category: 'ENTERPRISE APPLICATION',
-    year: '2026',
+    
     image: 'project-dineops.svg',
     desc: 'Restaurant and cloud-kitchen operations platform built around authentication, business workflows, inventory, purchasing, sales and reporting.',
     stack: 'React · FastAPI · PostgreSQL',
@@ -61,34 +61,35 @@ const projects = [
   },
   {
     n: '02',
-    title: 'E-Commerce Website',
+    title: 'AI-Powered-Blogging Website',
     category: 'FULL-STACK WEB',
-    year: '2024',
-    image: 'project-ecommerce.svg',
-    desc: 'A responsive shopping experience focused on product discovery, cart flows, API integration and maintainable application structure.',
-    stack: 'React · JavaScript · Node.js',
-    link: ''
+    
+    image: 'project-auto-blog.jpg',
+    desc: 'A full-stack AI-powered blogging platform for generating blog ideas, creating structured content, and managing blog drafts with an intuitive, responsive interface.',
+    stack: 'React · JavaScript · Python · Django REST Framework · Gemini API · PostgreSQL',
+    link: 'https://github.com/siddants42/AI-Powered-Blogging-Website'
   },
   {
     n: '03',
     title: 'Credit Card Fraud Detection-FRAUDSHIELD',
     category: 'MACHINE LEARNING',
-    year: '2024',
+    
     image: 'project-fraud.svg',
     desc: 'A data-driven classification project for preprocessing transactions, exploring patterns and identifying potentially fraudulent activity.',
     stack: 'Python · Pandas · Scikit-learn',
     link: 'https://github.com/siddants42/FRAUDSHIELD'
   },
-  {
-    n: '04',
-    title: 'Movie Recommendation System',
-    category: 'DATA + ML',
-    year: '2024',
-    image: 'project-movies.svg',
-    desc: 'A recommendation project using data processing and machine-learning techniques to surface relevant movie suggestions.',
-    stack: 'Python · NumPy · Pandas · Scikit-learn',
-    link: ''
-  }
+ 
+{
+  n: '04',
+  title: 'JARVIS AI Assistant',
+  category: 'AI + FULL-STACK',
+  image: 'JARVIS AI Assistant Dashboard.png',
+  desc: 'A personal AI assistant powered by a local Qwen language model, featuring a React interface, Django REST API, conversational AI, and Ollama integration.',
+  stack: 'React · TypeScript · Django · Python · Ollama · Qwen 2.5',
+  link: 'https://github.com/siddants42/JARVIS-Assistant'
+}
+
 ];
 
 const certifications = [
